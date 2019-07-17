@@ -349,7 +349,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AsyncExample OS X/Pods-AsyncExample OS X-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AsyncExample OS X/Pods-AsyncExample OS X-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AsyncSwift-macOS/Async.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -358,7 +358,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsyncExample OS X/Pods-AsyncExample OS X-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsyncExample OS X/Pods-AsyncExample OS X-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9531257EF9C8DF38CE9AC3F3 /* [CP] Check Pods Manifest.lock */ = {
@@ -385,7 +385,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AsyncExample tvOS/Pods-AsyncExample tvOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AsyncExample tvOS/Pods-AsyncExample tvOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AsyncSwift-tvOS/Async.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -394,7 +394,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsyncExample tvOS/Pods-AsyncExample tvOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsyncExample tvOS/Pods-AsyncExample tvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B6B49BC3A33431F9B87A9108 /* [CP] Embed Pods Frameworks */ = {
@@ -403,7 +403,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AsyncExample iOS/Pods-AsyncExample iOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AsyncExample iOS/Pods-AsyncExample iOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AsyncSwift-iOS/Async.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -412,7 +412,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsyncExample iOS/Pods-AsyncExample iOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsyncExample iOS/Pods-AsyncExample iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C426006F401E380D30D556C5 /* [CP] Check Pods Manifest.lock */ = {

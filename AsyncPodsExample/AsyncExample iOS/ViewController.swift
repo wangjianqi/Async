@@ -32,28 +32,28 @@ class ViewController: UIViewController {
 		})
 		*/
 
-		/*
+		
 		// Chaining with Async
 		var id = 0
 		Async.main {
-			print("This is run on the \(qos_class_self().description) (expected \(qos_class_main().description)) count: \(++id) (expected 1) ")
+			print("This is run on the \(qos_class_self().description) (expected \(qos_class_main().description)) count: \(id += 1) (expected 1) ")
 			// Prints: "This is run on the Main (expected Main) count: 1 (expected 1)"
 		}.userInteractive {
-			print("This is run on the \(qos_class_self().description) (expected \(QOS_CLASS_USER_INTERACTIVE.description)) count: \(++id) (expected 2) ")
+			print("This is run on the \(qos_class_self().description) (expected \(QOS_CLASS_USER_INTERACTIVE.description)) count: \(id += 1) (expected 2) ")
 			// Prints: "This is run on the Main (expected Main) count: 2 (expected 2)"
 		}.userInitiated {
-			print("This is run on the \(qos_class_self().description) (expected \(QOS_CLASS_USER_INITIATED.description)) count: \(++id) (expected 3) ")
+			print("This is run on the \(qos_class_self().description) (expected \(QOS_CLASS_USER_INITIATED.description)) count: \(id += 1) (expected 3) ")
 			// Prints: "This is run on the User Initiated (expected User Initiated) count: 3 (expected 3)"
 		}.utility {
-			print("This is run on the \(qos_class_self().description) (expected \(QOS_CLASS_UTILITY.description)) count: \(++id) (expected 4) ")
+			print("This is run on the \(qos_class_self().description) (expected \(QOS_CLASS_UTILITY.description)) count: \(id += 1) (expected 4) ")
 			// Prints: "This is run on the Utility (expected Utility) count: 4 (expected 4)"
 		}.background {
-			print("This is run on the \(qos_class_self().description) (expected \(QOS_CLASS_BACKGROUND.description)) count: \(++id) (expected 5) ")
+			print("This is run on the \(qos_class_self().description) (expected \(QOS_CLASS_BACKGROUND.description)) count: \(id += 1) (expected 5) ")
 			// Prints: "This is run on the User Interactive (expected User Interactive) count: 5 (expected 5)"
 		}
-		*/
 		
-		/*
+		
+		
 		// Keep reference for block for later chaining
 		let backgroundBlock = Async.background {
 			print("This is run on the \(qos_class_self().description) (expected \(QOS_CLASS_BACKGROUND.description))")
@@ -62,7 +62,7 @@ class ViewController: UIViewController {
 		backgroundBlock.main {
 			print("This is run on the \(qos_class_self().description) (expected \(qos_class_main().description)), after the previous block")
 		}
-		*/
+		
 		
 		/*
 		// Custom queues
